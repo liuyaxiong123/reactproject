@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background:pink;
+    height: 30px;
+}
+.parent {
+    width: 500px;
+    height: 40vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.parent::-webkit-scrollbar {
+    display: none;
+}
+
+.child {
+    height: auto;
+}
+
+.child li {
+    height: 50px;
+    margin: 2px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #f6f6f6;
+}
